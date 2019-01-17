@@ -19,15 +19,6 @@
       "image": "./hog-imgs/porkchop.jpg"
     },
     {
-      "id": 2,
-      "name": "Cherub",
-      "specialty": "truffle finder",
-      "greased": false,
-      "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 0.7,
-      "highest medal achieved": "gold",
-      "image": "./hog-imgs/cherub.jpg"
-    },
-    {
       "id": 3,
       "name": "Piggy smalls",
       "specialty": "Massivity",
@@ -103,7 +94,7 @@
       "id": 11,
       "name": "Leggo My Eggo",
       "specialty": "Babysitting",
-      "greased": true,
+      "greased": false,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 3.3,
       "highest medal achieved": "platinum",
       "image": "./hog-imgs/leggo_my_eggo.jpg"
