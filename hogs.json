@@ -13,7 +13,7 @@
       "id": 1,
       "name": "Porkchop",
       "specialty": "Making friends",
-      "greased": true,
+      "greased": false,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 1.6,
       "highest medal achieved": "silver",
       "image": "./hog-imgs/porkchop.jpg"
@@ -49,7 +49,7 @@
       "id": 5,
       "name": "Sobriety",
       "specialty": "Expert Witness",
-      "greased": false,
+      "greased": true,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 2.2,
       "highest medal achieved": "silver",
       "image": "./hog-imgs/sobriety.jpg"
@@ -116,6 +116,24 @@
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 4.1,
       "highest medal achieved": "wood",
       "image": "./hog-imgs/augustus_gloop.jpg"
+    },
+    {
+      "name": "Korean Pork Belly",
+      "specialty": "Customer Satisfying",
+      "medal": "Gold",
+      "weight": "2.5",
+      "image": "https://cdn0.wideopenspaces.com/wp-content/uploads/2018/09/Watch-This-Guy-Take-Down-A-Big-Texas-Hog-With-A-.30-30-Winchester-630x339.jpg",
+      "greased": true,
+      "id": 13
+    },
+    {
+      "name": "Garlic Ginger Glazed Sticky Pork ",
+      "specialty": "Be Tasty",
+      "medal": "Silver",
+      "weight": "1.78",
+      "image": "https://c1.staticflickr.com/4/3647/3564586287_ac4a1bc1e9_b.jpg",
+      "greased": true,
+      "id": 14
     }
   ]
 }
