@@ -54,7 +54,7 @@ function getFormCheckbox() {
 }
 
 function getCheckBoxValue(hogId) {
-  return document.querySelector(`[data-hog-id='${hogId}']`)
+  return document.querySelector(`#hog-checkbox-${hogId}`)
 }
 
 function getSubmitButton(hogObj) {
@@ -65,7 +65,7 @@ function getSubmitButton(hogObj) {
 function renderHogCard(hogObj) {
   const cardDiv = document.createElement('div')
   cardDiv.classList.add('hog-card')
-  cardDiv.dataset.hogCardId = hogObj.id
+  cardDiv.id = `hog-${hogObj.id}`
 
   const nameP = document.createElement('h2')
   nameP.innerText = hogObj.name
@@ -89,7 +89,7 @@ function renderHogCard(hogObj) {
   const greasedCheckBox = document.createElement('input')
   greasedCheckBox.setAttribute('type', 'checkbox')
   greasedCheckBox.checked = hogObj.greased
-  greasedCheckBox.dataset.hogId = hogObj.id
+  greasedCheckBox.id = `hog-checkbox-${hogObj.id}`
   greasedCheckBox.addEventListener('click', () => handleCheckBox(hogObj))
 
   const deleteDiv = document.createElement('div')
@@ -148,6 +148,6 @@ function handleDeleteButton(hogObj) {
   deleteHog(hogObj.id)
   .then(res => res.json())
   .then(() => {
-    document.querySelector(`[data-hog-card-id='${hogObj.id}']`).remove()
+    document.querySelector(`#hog-${hogObj.id}`).remove()
     })
 }

@@ -4,7 +4,7 @@
       "id": 0,
       "name": "Mudblood",
       "specialty": "Mediocre magic",
-      "greased": false,
+      "greased": true,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 2,
       "highest medal achieved": "bronze",
       "image": "./hog-imgs/mudblood.jpg"
@@ -125,15 +125,6 @@
       "image": "https://cdn0.wideopenspaces.com/wp-content/uploads/2018/09/Watch-This-Guy-Take-Down-A-Big-Texas-Hog-With-A-.30-30-Winchester-630x339.jpg",
       "greased": true,
       "id": 13
-    },
-    {
-      "name": "Garlic Ginger Glazed Sticky Pork ",
-      "specialty": "Be Tasty",
-      "medal": "Silver",
-      "weight": "1.78",
-      "image": "https://c1.staticflickr.com/4/3647/3564586287_ac4a1bc1e9_b.jpg",
-      "greased": true,
-      "id": 14
     }
   ]
 }
