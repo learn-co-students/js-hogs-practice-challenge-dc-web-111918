@@ -29,7 +29,7 @@
       justify-content: center;
       text-align: center;
       }
-      
+
       .hog-card{
         float:left;
         width:393px;
@@ -42,6 +42,11 @@
       .center-text {
         text-align: center;
       }
+      .hog-image {
+        justify-self: center;
+        height: 12rem;
+        width: auto;
+      }
     </style>
   </head>
   <body>
@@ -50,17 +55,17 @@
       <div id="form">
         <h3>New Hog</h3>
         <form id="hog-form">
-          <input type="text" name="name" placeholder="name"/>
+          <input id="name" type="text" name="name" placeholder="name"/>
           <br/>
-          <input type="text" name="specialty" placeholder="specialty"/>
+          <input id="specialty" type="text" name="specialty" placeholder="specialty"/>
           <br/>
-          <input type="text" name="medal" placeholder="medal"/>
+          <input id="medal" type="text" name="medal" placeholder="medal"/>
           <br/>
-          <input type="text" name="weight" placeholder="weight"/>
+          <input id="weight" type="text" name="weight" placeholder="weight"/>
           <br/>
-          <input type="text" name="img" placeholder="img url"/>
+          <input id="image" type="text" name="img" placeholder="img url"/>
           <br/>
-          <span>greased: <input type="checkbox" name="greased" value="greased"></span>
+          <span>greased: <input id="greased" type="checkbox" name="greased" value="greased"></span>
           <br/>
           <input type="submit" value="Submit"/>
         </form>
