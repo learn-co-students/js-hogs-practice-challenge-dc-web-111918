@@ -4,7 +4,7 @@
       "id": 0,
       "name": "Mudblood",
       "specialty": "Mediocre magic",
-      "greased": false,
+      "greased": true,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 2,
       "highest medal achieved": "bronze",
       "image": "./hog-imgs/mudblood.jpg"
@@ -22,7 +22,7 @@
       "id": 2,
       "name": "Cherub",
       "specialty": "truffle finder",
-      "greased": false,
+      "greased": true,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 0.7,
       "highest medal achieved": "gold",
       "image": "./hog-imgs/cherub.jpg"
@@ -31,7 +31,7 @@
       "id": 3,
       "name": "Piggy smalls",
       "specialty": "Massivity",
-      "greased": true,
+      "greased": false,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 5.1,
       "highest medal achieved": "platinum",
       "image": "./hog-imgs/piggy_smalls.jpg"
@@ -40,7 +40,7 @@
       "id": 4,
       "name": "Trouble",
       "specialty": "Racing",
-      "greased": true,
+      "greased": false,
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 1.7,
       "highest medal achieved": "gold",
       "image": "./hog-imgs/trouble.jpg"
@@ -116,6 +116,24 @@
       "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": 4.1,
       "highest medal achieved": "wood",
       "image": "./hog-imgs/augustus_gloop.jpg"
+    },
+    {
+      "name": "efa",
+      "specialty": "sfaf",
+      "highest medal achieved": "sfafas",
+      "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": "sfsfa",
+      "image": "https://enjoyhuntinglife.com/wp-content/uploads/2017/07/hog-hunting.png",
+      "greased": false,
+      "id": 17
+    },
+    {
+      "name": "ssfa",
+      "specialty": "sfafa",
+      "highest medal achieved": "sfafa",
+      "weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water": "sfaf",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Pig-hog.jpg",
+      "greased": true,
+      "id": 18
     }
   ]
 }
