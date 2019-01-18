@@ -29,7 +29,7 @@
       justify-content: center;
       text-align: center;
       }
-      
+
       .hog-card{
         float:left;
         width:393px;
@@ -43,6 +43,7 @@
         text-align: center;
       }
     </style>
+
   </head>
   <body>
     <h1>Hog Farm</h1>
@@ -50,17 +51,17 @@
       <div id="form">
         <h3>New Hog</h3>
         <form id="hog-form">
-          <input type="text" name="name" placeholder="name"/>
+          <input type="text" name="name" id="hog-form-name" placeholder="name"/>
           <br/>
-          <input type="text" name="specialty" placeholder="specialty"/>
+          <input type="text" name="specialty" id="hog-form-specialty" placeholder="specialty"/>
           <br/>
-          <input type="text" name="medal" placeholder="medal"/>
+          <input type="text" name="medal" id="hog-form-medal" placeholder="medal"/>
           <br/>
-          <input type="text" name="weight" placeholder="weight"/>
+          <input type="text" name="weight" id="hog-form-weight" placeholder="weight"/>
           <br/>
-          <input type="text" name="img" placeholder="img url"/>
+          <input type="text" name="img" id="hog-form-img" placeholder="img url"/>
           <br/>
-          <span>greased: <input type="checkbox" name="greased" value="greased"></span>
+          <span>greased: <input type="checkbox" id="hog-form-greased" name="greased" value="greased"></span>
           <br/>
           <input type="submit" value="Submit"/>
         </form>
@@ -69,6 +70,7 @@
       </div>
     </div>
   </body>
-  <script type="text/javascript" src="src/index.js"></script>
+  <script type="text/javascript" src="src/hog_controller.js"></script>
   <script type="text/javascript" src="src/hog.js"></script>
+  <script type="text/javascript" src="src/index.js"></script>
 </html>
